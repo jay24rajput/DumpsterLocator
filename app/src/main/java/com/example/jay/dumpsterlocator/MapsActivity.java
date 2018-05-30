@@ -18,6 +18,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -36,9 +37,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     LocationListener listener;
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     String provider;
-
-   
-
+    //TextView question=(TextView)findViewById(R.id.question_text_view);
+    //Button yesbutton=(Button)findViewById(R.id.yes_button);
+    //Button nobutton=(Button)findViewById(R.id.no_button);
+    //Button reanswerbutton=(Button)findViewById(R.id.reanswer_button);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,12 +53,45 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     public void setDustbin(View view)
     {
+        TextView question=(TextView)findViewById(R.id.question_text_view);
+        Button yesbutton=(Button)findViewById(R.id.yes_button);
+        Button nobutton=(Button)findViewById(R.id.no_button);
+        Button reanswerbutton=(Button)findViewById(R.id.reanswer_button);
         LatLng dustbinLocation=getDustbinLocation();
         Marker marker = mMap.addMarker(new MarkerOptions().position(dustbinLocation).title("Dustbin Located Successfully"));
         marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dustbinLocation, 15f));
-        TextView question=(TextView)findViewById(R.id.question_text_view);
+        //TextView question=(TextView)findViewById(R.id.question_text_view);
         question.setText("Thanks! Your response has been recorded");
+        yesbutton.setVisibility(View.GONE);
+        nobutton.setVisibility(View.GONE);
+        reanswerbutton.setVisibility(View.VISIBLE);
+    }
+
+    public void removeDustbin(View view)
+    {
+        TextView question=(TextView)findViewById(R.id.question_text_view);
+        Button yesbutton=(Button)findViewById(R.id.yes_button);
+        Button nobutton=(Button)findViewById(R.id.no_button);
+        Button reanswerbutton=(Button)findViewById(R.id.reanswer_button);
+        //Code to remove the dustbin at that location
+        
+        question.setText("Thanks! Your response has been recorded");
+        yesbutton.setVisibility(View.GONE);
+        nobutton.setVisibility(View.GONE);
+        reanswerbutton.setVisibility(View.VISIBLE);
+    }
+
+    public void reAnswer(View View)
+    {
+        TextView question=(TextView)findViewById(R.id.question_text_view);
+        Button yesbutton=(Button)findViewById(R.id.yes_button);
+        Button nobutton=(Button)findViewById(R.id.no_button);
+        Button reanswerbutton=(Button)findViewById(R.id.reanswer_button);
+        question.setText("Is there a dustbin at your location?");
+        yesbutton.setVisibility(View.VISIBLE);
+        nobutton.setVisibility(View.VISIBLE);
+        reanswerbutton.setVisibility(View.GONE);
     }
 
     public LatLng getDustbinLocation() {

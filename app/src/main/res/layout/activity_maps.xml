@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Is there a dustbin at your location?"
-        android:id="@+id/question_text_view"/>
+        android:id="@+id/question_text_view" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,12 +20,26 @@
             android:layout_height="30dp"
             android:textSize="10dp"
             android:text="Yes"
-            android:onClick="setDustbin"/>
+            android:onClick="setDustbin"
+            android:enabled="true"
+            android:id="@+id/yes_button"
+            android:visibility="visible"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:textSize="10dp"
-            android:text="No"/>
+            android:text="No"
+            android:visibility="visible"
+            android:id="@+id/no_button"
+            android:onClick="removeDustbin"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:text="Re-Answer"
+            android:visibility="gone"
+            android:id="@+id/reanswer_button"
+            android:onClick="reAnswer"/>
     </LinearLayout>
 <fragment
     android:id="@+id/map"
