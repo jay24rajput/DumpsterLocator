@@ -1,7 +1,9 @@
 package com.example.jay.dumpsterlocator;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Criteria;
@@ -14,6 +16,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
+import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -29,6 +34,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     LocationManager locationManager;
     LocationListener listener;
+    public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
+    String provider;
+
+   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +47,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+    }
+
+    public void setDustbin(View view)
+    {
+        LatLng dustbinLocation=getDustbinLocation();
+        Marker marker = mMap.addMarker(new MarkerOptions().position(dustbinLocation).title("Dustbin Located Successfully"));
+        marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dustbinLocation, 15f));
+        TextView question=(TextView)findViewById(R.id.question_text_view);
+        question.setText("Thanks! Your response has been recorded");
     }
 
     public LatLng getDustbinLocation() {
@@ -103,7 +122,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng myloc=new LatLng(latitude,longitude);*/
         LatLng dustbin=getDustbinLocation();
         Marker marker = mMap.addMarker(new MarkerOptions().position(dustbin).title("Dustbin Located Successfully"));
-        marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+        marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dustbin, 15f));
     }
 }

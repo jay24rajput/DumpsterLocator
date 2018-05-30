@@ -4,8 +4,10 @@ ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidM
 INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/771abb269ae285213b4d820efb84c288/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e966ac2b20672706c15f2c44a72042f7/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6aae757c08e94ee29f9bda3920f0a27b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f403d09aec31bd9794abe23359f89ad0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/48a56a9a232420e4ca48ba30e892fc8e/AndroidManifest.xml:17:1-29:12
@@ -21,21 +23,21 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/jay/.gradle/cache
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/08e84bd158578bc45c60dca1c5b0692f/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cb3115d8d3b165b336fa2a8ce4f2cc15/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7913fd082bebf4a68b985985709fd513/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml:1:1-12:12
 	package
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
-		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:1-43:12
-		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -54,8 +56,12 @@ ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidM
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:11:22-78
 application
 ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:13:5-41:19
+MERGED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:13:5-41:19
+MERGED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:13:5-41:19
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:30:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e966ac2b20672706c15f2c44a72042f7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e966ac2b20672706c15f2c44a72042f7/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/48a56a9a232420e4ca48ba30e892fc8e/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/48a56a9a232420e4ca48ba30e892fc8e/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d25c50bb8fc03e6e5fa59c4ef56b4b0e/AndroidManifest.xml:7:5-20
@@ -68,15 +74,21 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /home/jay/.gradle/
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7d3b02861a4b367a485d84ef7d3e4e2/AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:16:9-41
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:16:9-41
 	android:roundIcon
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:17:9-54
 	android:icon
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:15:9-43
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:19:9-40
 		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:19:9-40
 meta-data#com.google.android.geo.API_KEY
 ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml:28:9-30:55
@@ -108,6 +120,8 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] /home/jay/.gradle/caches/t
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/771abb269ae285213b4d820efb84c288/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e966ac2b20672706c15f2c44a72042f7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e966ac2b20672706c15f2c44a72042f7/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6aae757c08e94ee29f9bda3920f0a27b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6aae757c08e94ee29f9bda3920f0a27b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/jay/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f403d09aec31bd9794abe23359f89ad0/AndroidManifest.xml:20:5-44
@@ -138,18 +152,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jay/.gradle/caches/tran
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cb3115d8d3b165b336fa2a8ce4f2cc15/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7913fd082bebf4a68b985985709fd513/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7913fd082bebf4a68b985985709fd513/AndroidManifest.xml:20:5-44
-INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
+INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] /home/jay/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2acc82abda18f9b121537c4742098aa7/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml
+activity#com.example.jay.dumpsterlocator.MapsCalling
+ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml:5:9-10:20
+	android:name
+		ADDED from /home/jay/AndroidStudioProjects/DumpsterLocator/app/src/debug/AndroidManifest.xml:5:19-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/jay/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/7215e09b1a676b2e25373e9d21dd1b11/AndroidManifest.xml:23:5-79
 	android:name
